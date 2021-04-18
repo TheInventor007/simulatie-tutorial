@@ -88,5 +88,5 @@ radio.onReceivedValue(function (name, value) {
 
 ## Step 5
 Goed gedaan, nu kunnen we onze code uittesten!
-Wanneer je de ``||functions:astma||`` functie opent kun je het ``||variables:longvolume||``longvolume en de ``||variables:diameter van de bronchioli||`` aanpassen.
+Wanneer je de ``||functions:astma||`` functie opent kun je de ``||variables:longcapaciteit||`` en de ``||variables:diameter van de bronchioli||`` aanpassen.
 probeer de het longvolume eens naar 4 of 8 te brengen en de diameter naar 0.8 of 1.2mm, wat verandert er? 
