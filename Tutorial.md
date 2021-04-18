@@ -60,7 +60,7 @@ Eerst moeten we onze werkplek wat proper maken, maak de functies overzichtelijke
 Gebruik de balk onderaan om ook de functies helemaal rechts te kunnen zien.
 
 ## Step 2
-Nu moeten we deze functies activeren. Dit kunnen we doen door een 'druk op a' blok te gebruiken die de functies astma en Controle aanroepen.
+Nu moeten we deze functies activeren. Dit kunnen we doen door een ``||input:druk op a||`` blok te gebruiken die de functies ``||functions:astma||`` en ``||functions:Controle||`` aanroepen.
 ```blocks
 input.onButtonPressed(Button.A, function () {
     Controle()
@@ -69,7 +69,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 ## Step 3
 Nu is het aan ons om de datapunten die we binnenkrijgen te versturen naar een 2de microbit.
-Dit doen we door de functie 'versturen' te openen en het 'datapunt' te versturen voor de 'persoon'
+Dit doen we door de functie ``||radio:versturen||`` te openen en het ``||variables:datapunt||`` te versturen voor de ``||variables:persoon||``
 
 ```blocks
 function Versturen () {
@@ -77,7 +77,7 @@ function Versturen () {
 }
 ```
 ## Step  4 
-Nu moet enkel een 2de microbit de gegevens die we 'binnenkrijgen' te 'laten zien' wanneer het 'lichtniveau' groter is dan 130. 
+Nu moet enkel een 2de microbit de gegevens die we ``||radio:binnenkrijgen||`` te ``||serial:laten zien||`` wanneer het ``||input:lichtniveau||`` ``||logic:groter is dan||``  130. 
 ```blocks
 radio.onReceivedValue(function (name, value) {
     if (input.lightLevel() > 130) {
@@ -88,5 +88,4 @@ radio.onReceivedValue(function (name, value) {
 
 ## Step 5
 Goed gedaan, nu kunnen we onze code uittesten!
-
 
