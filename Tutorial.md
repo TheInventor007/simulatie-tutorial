@@ -54,9 +54,9 @@ function Blazen () {
 
 ## Step 1
 Tijdens deze tutorial gaan we de data van 2 personen analyseren, iemand met asthma en iemand zonder astma.
-Deze personen worden getoond in de functie 'astma' en de functie 'Controle'.
-Het blazen van deze personen wordt gesimuleerd met de functies 'blazen' en 'blazen2' 
-Eerst moeten we onze werkplek wat proper maken, maak de functies overzichtelijker door op de pijltjes te drukken naast de titels. 
+Deze personen worden getoond in de functies ``||functions:astma||`` en ``||functions:Controle||``.
+Het blazen van deze personen wordt gesimuleerd met de functies ``||functions:blazen||`` en ``||functions:blazen2||`` 
+Eerst moeten we onze werkplek wat overzichtelijker maken, maak de functies overzichtelijker door op de pijltjes te drukken naast de titels. 
 Gebruik de balk onderaan om ook de functies helemaal rechts te kunnen zien.
 
 ## Step 2
@@ -88,4 +88,5 @@ radio.onReceivedValue(function (name, value) {
 
 ## Step 5
 Goed gedaan, nu kunnen we onze code uittesten!
-
+Wanneer je de ``||functions:astma||`` functie opent kun je het ``||variables:longvolume||``longvolume en de ``||variables:diameter van de bronchioli||`` aanpassen.
+probeer de het longvolume eens naar 4 of 8 te brengen en de diameter naar 0.8 of 1.2mm, wat verandert er? 
