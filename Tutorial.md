@@ -69,7 +69,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 ## Step 3
 Nu is het aan ons om de datapunten die we binnenkrijgen te versturen naar een 2de microbit.
-Dit doen we door de functie ``||radio:versturen||`` te openen en het ``||variables:datapunt||`` te versturen voor de ``||variables:persoon||``
+Dit doen we door de functie ``||functions:versturen||`` te openen en het ``||variables:datapunt||`` te ``||radio:versturen||`` voor de ``||variables:persoon||``
 
 ```blocks
 function Versturen () {
