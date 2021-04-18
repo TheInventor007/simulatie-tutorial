@@ -56,8 +56,8 @@ function Blazen () {
 Tijdens deze tutorial gaan we de data van 2 personen analyseren, iemand met asthma en iemand zonder astma.
 Deze personen worden getoond in de functies ``||functions:astma||`` en ``||functions:Controle||``.
 Het blazen van deze personen wordt gesimuleerd met de functies ``||functions:blazen||`` en ``||functions:blazen2||`` 
-Eerst moeten we onze werkplek wat overzichtelijker maken, maak de functies overzichtelijker door op de pijltjes te drukken naast de titels. 
-Gebruik de balk onderaan om ook de functies helemaal rechts te kunnen zien.
+Eerst moeten we onze werkplek wat overzichtelijker maken, maak de functies kleiner door op de pijltjes te drukken naast de titels.
+Gebruik de balk onderaan om de functies helemaal rechts ook te kunnen zien.
 
 ## Step 2
 Nu moeten we deze functies activeren. Dit kunnen we doen door een ``||input:druk op a||`` blok te gebruiken die de functies ``||functions:astma||`` en ``||functions:Controle||`` aanroepen.
